@@ -8,10 +8,10 @@ buttons.forEach((button) => {
    let message = '';
    switch (button.id) {
     case 'button-1':
-     message = 'Happy birthday to an amazing person!';
+     message = 'This website is from my side Happy Birthday!';
      break;
     case 'button-2':
-     message = 'Congratulations on your graduation!';
+     message = "Happy Birthday! wishing you a day filled with joy, laughter and unforgettable moments. May the year ahead bring you success, happiness and everything you've been hoping for. Enjoy your day to the fullest! Bhiya";
      break;
     case 'button-3':
      message = 'Good luck on your new job!';
