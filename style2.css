@@ -1,0 +1,59 @@
+/* styles.css */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+}
+
+.button-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.surprise-button {
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 18px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.surprise-button:hover {
+  background-color: #3e8e41;
+}
+
+.surprise-button:active {
+  transform: scale(0.9);
+}
+
+#message-area {
+  width: 80%;
+  height: 100px;
+  padding: 10px;
+  font-size: 18px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 20px auto;
+  display: block;
+}
+#next{
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 18px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin: 20px auto;
+  display: block;
+  margin-top: 100px;
+}
+#next:hover{
+  background-color: #3e8e41;
+}
