@@ -34,13 +34,13 @@ buttons.forEach((button) => {
     case 'button-7':
      message = "Dear Pradeep, today is your birthday. I wish this day will come again and again in your life. Your silent attitude should stay with you everytime. You should go very successful I wish and this is all from my side.";
      var audio = new Audio('anna.mp3');
-     audio.play();
        
     case 'button-8':
-     message = "Bhaw bhaw bhawwwwwwwwww! Happy Birthday.";
+     message = "Bhaw bhaw bhawwwwwwwwww Happy Birthday.";
      break;
    }
    messageArea.value = message;
+   audio.play();
   });
 });
 
