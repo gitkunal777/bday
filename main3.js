@@ -9,4 +9,6 @@ blowButton.addEventListener('click', () => {
   setTimeout(() => {
    wishMessage.classList.add('show');
   }, 1000);
+  var audio = new Audio('song.mp3');
+  audio.play();
 });
