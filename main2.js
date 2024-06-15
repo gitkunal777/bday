@@ -14,7 +14,7 @@ buttons.forEach((button) => {
      message = "Happy Birthday! wishing you a day filled with joy, laughter and unforgettable moments. May the year ahead bring you success, happiness and everything you've been hoping for. Enjoy your day to the fullest! Bhiya";
      break;
     case 'button-3':
-     message = 'null';
+     message = 'Wishing you a fantastic birthday, Bhiya!';
      break;
     case 'button-4':
      message = 'null';
