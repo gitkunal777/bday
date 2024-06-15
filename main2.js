@@ -52,3 +52,6 @@ nextButton.addEventListener('click', () => {
    window.location.href = 'last.html';
   }, 500);
 });
+function playsong(){
+  var audio = new Audio('anna.mp3');
+}
