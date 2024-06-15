@@ -28,7 +28,7 @@ buttons.forEach((button) => {
      break;
        
     case 'bytton-6':
-     message = "Happy Birthday to my love of life. I am so gratefull for your love and support everyday. Here's to anotrher year to making memories together.";
+     message = "null";
      break;
        
     case 'button-7':
