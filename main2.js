@@ -11,7 +11,7 @@ buttons.forEach((button) => {
      message = 'This website is from my side Happy Birthday!';
      break;
     case 'button-2':
-     message = "Happy Birthday! wishing you a day filled with joy, laughter and unforgettable moments. May the year ahead bring you success, happiness and everything you've been hoping for. Enjoy your day to the fullest! Bhiya";
+     message = "Happy Birthday! wishing you a day filled with joy, laughter and unforgettable moments. May the year ahead bring you success, happiness and everything you've been hoping for. Enjoy your day to the fullest! Bhiya!";
      break;
     case 'button-3':
      message = 'Wishing you a fantastic birthday, Bhiya!';
@@ -20,7 +20,9 @@ buttons.forEach((button) => {
      message = "Happy Birthday, Pradeep bhaiya! Wishing you a fantastic day filled with joy and all your favorite things. Cheers to another great year ahead!";
      break;
     case 'button-5':
-     message = "Wishing you a day filled with happiness and a year filled with joy. May your birthday be as incredible as you are! Another trip around the sun-time to celebrate! here's to another year of adventure, laughter and amazing memories. Sending you lots of love om your special day! Happy Birthday!"
+     message = "Wishing you a day filled with happiness and a year filled with joy. May your birthday be as incredible as you are! Another trip around the sun-time to celebrate! here's to another year of adventure, laughter and amazing memories. Sending you lots of love om your special day! Happy Birthday!";
+    case 'bytton-6':
+       message = "Happy Birthday to my love of life. I am so gratefull for your love and support everyday. Here's to anotrher year to making memories together."
    }
    messageArea.value = message;
   });
