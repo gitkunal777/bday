@@ -19,6 +19,8 @@ buttons.forEach((button) => {
     case 'button-4':
      message = 'null';
      break;
+    case 'button-5':
+     message = "Wishing you a day filled with happiness and a year filled with joy. May your birthday be as incredible as you are! Another trip around the sun-time to celebrate! here's to another year of adventure, laughter and amazing memories. Sending you lots of love om your special day! Happy Birthday!"
    }
    messageArea.value = message;
   });
