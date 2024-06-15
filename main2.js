@@ -38,6 +38,14 @@ buttons.forEach((button) => {
     case 'button-8':
      message = "Bhaw bhaw bhawwwwwwwwww Happy Birthday.";
      break;
+
+    case 'button-9':
+     message = "Wishing you happiest birthday mama enjoy your birthday.";
+     break;
+
+    case 'button-8':
+     message = "Happy Birthday mama many many returns of the day.";
+     break;
    }
    messageArea.value = message;
   });
@@ -52,6 +60,3 @@ nextButton.addEventListener('click', () => {
    window.location.href = 'last.html';
   }, 500);
 });
-function playsong(){
-  var audio = new Audio('anna.mp3');
-}
