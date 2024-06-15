@@ -35,7 +35,7 @@ buttons.forEach((button) => {
      message = "Dear Pradeep, today is your birthday. I wish this day will come again and again in your life. Your silent attitude should stay with you everytime. You should go very successful I wish and this is all from my side.";
      break;
        
-    case 'button-7':
+    case 'button-8':
      message = "Bhaw bhaw bhawwwwwwwwww! Happy Birthday.";
      break;
    }
