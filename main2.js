@@ -2,6 +2,7 @@
 
 const buttons = document.querySelectorAll(".surprise-button");
 const messageArea = document.getElementById("message-area");
+const audioPlayer = document.getElementById("audio-player");
 
 buttons.forEach((button) => {
   button.addEventListener("click", () => {
@@ -42,6 +43,7 @@ buttons.forEach((button) => {
 
       case "button-8":
         message = "Bhaw bhaw bhawwwwwwwwww Happy Birthday.";
+        audioPlayer.play();
         break;
 
       case "button-9":
