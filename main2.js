@@ -43,7 +43,7 @@ buttons.forEach((button) => {
      message = "Wishing you happiest birthday mama enjoy your birthday.";
      break;
 
-    case 'button-8':
+    case 'button-10':
      message = "Happy Birthday mama many many returns of the day.";
      break;
    }
